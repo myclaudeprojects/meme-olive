@@ -1,0 +1,9 @@
+{
+  "name": "meme-olive",
+  "buildCommand": "true",
+  "publishPath": ".",
+  "repo": "https://github.com/myclaudeprojects/meme-olive",
+  "branch": "main",
+  "autoDeploy": "yes",
+  "workspaceId": "tea-d95bkuuq1p3s73cshmn0"
+}

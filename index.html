@@ -441,8 +441,14 @@
       <p class="blurb">Olive watches quietly, then says the one thing you needed to hear. Leaves optional, wisdom included. Entertainment only — not financial advice.</p>
       <div class="cta-row">
         
-        <span class="btn btn-soon" aria-disabled="true">Coming soon</span>
+        <a class="btn btn-primary" href="https://argus.world/token/0xd5Eb4003DDF62fAEeB098B0005CCA2c837159703" target="_blank" rel="noopener noreferrer">Buy $OLIVE</a>
         
+      </div>
+      
+      <div class="ca-box">
+        <label>CA</label>
+        <code id="ca">0xd5Eb4003DDF62fAEeB098B0005CCA2c837159703</code>
+        <button type="button" id="copy-ca" aria-label="Copy contract address">Copy</button>
       </div>
       
       
@@ -472,6 +478,39 @@
     </footer>
   </div>
 
+  
+  <script>
+    (function () {
+      var btn = document.getElementById("copy-ca");
+      var ca = document.getElementById("ca");
+      if (!btn || !ca) return;
+      btn.addEventListener("click", function () {
+        var text = ca.textContent.trim();
+        function done() {
+          btn.textContent = "Copied!";
+          btn.classList.add("copied");
+          setTimeout(function () {
+            btn.textContent = "Copy";
+            btn.classList.remove("copied");
+          }, 1600);
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done).catch(function () {
+            var r = document.createRange();
+            r.selectNodeContents(ca);
+            var s = window.getSelection();
+            s.removeAllRanges();
+            s.addRange(r);
+            try { document.execCommand("copy"); } catch (e) {}
+            s.removeAllRanges();
+            done();
+          });
+        } else {
+          done();
+        }
+      });
+    })();
+  </script>
   
 </body>
 </html>
