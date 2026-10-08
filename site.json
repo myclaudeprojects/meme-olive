@@ -1,0 +1,45 @@
+{
+  "ticker": "OLIVE",
+  "ticker_lower": "olive",
+  "name": "Olive",
+  "character": {
+    "name": "Olive",
+    "one_liner": "Calm and observant. Gives surprisingly good advice.",
+    "visual": "Small green tree frog with big amber eyes, a cream belly, orange toes, and a sprout of leaves growing on its head"
+  },
+  "tagline": "Sit still. Notice everything. Grow a little.",
+  "blurb": "Olive watches quietly, then says the one thing you needed to hear. Leaves optional, wisdom included. Entertainment only \u2014 not financial advice.",
+  "mint": null,
+  "ca": null,
+  "buy_url": null,
+  "twitter": null,
+  "x_url": null,
+  "telegram": null,
+  "telegram_url": null,
+  "dexscreener": null,
+  "character_image": "/workspace/meme-site-factory/critters-art/olive.webp",
+  "palette": {
+    "primary": "#ff9a76",
+    "secondary": "#ffd6a5",
+    "accent": "#ffe8d6",
+    "bg": "#fff8f1"
+  },
+  "design": {
+    "seed": "463759c8b06c3546",
+    "palette_family": "cream_peach",
+    "palette_source": "generated",
+    "layout": "centered",
+    "layout_source": "generated",
+    "layout_label": "Centered stack \u2014 mascot above copy in one rounded card",
+    "font_pair": "fredoka_nunito",
+    "font_source": "generated",
+    "font_display": "Fredoka",
+    "font_body": "Nunito",
+    "font_google": "family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800"
+  },
+  "request_id": "olive-2026-10-08-001",
+  "reply_to_agent_id": "9411f9dd-aace-468d-ba4c-319e35db5600",
+  "public": true,
+  "lore": "Olive sits very still. Long enough that a little sprout decided to grow right on top of that green head, and Olive simply let it.\n\nThose big amber eyes catch everything \u2014 the way the wind turns, who's nervous, who needs a quiet word. When Olive finally speaks, it's usually exactly right.\n\nNo rushing, no croaking for attention. Just a calm little frog with a leafy crown, reminding everyone that slow growth still counts. Entertainment only \u2014 not financial advice.",
+  "lore_source": "handoff"
+}
